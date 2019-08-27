@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.forever.AppTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.forever.AppTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2018.2.5"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="D:\Java7\jdk1.7.0_67\jre\bin"/>
-    <property name="java.vm.version" value="24.65-b04"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\ideaWorkPlace\springboot-demo"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\ideaWorkPlace\springboot-demo\target\test-classes;D:\ideaWorkPlace\springboot-demo\target\classes;D:\maven_repo\maven_repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-web\2.0.1.RELEASE\spring-boot-starter-web-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter\2.0.1.RELEASE\spring-boot-starter-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-autoconfigure\2.0.1.RELEASE\spring-boot-autoconfigure-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-logging\2.0.1.RELEASE\spring-boot-starter-logging-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\maven_repo\maven_repo\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\maven_repo\maven_repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\maven_repo\maven_repo\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;D:\maven_repo\maven_repo\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;D:\maven_repo\maven_repo\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;D:\maven_repo\maven_repo\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;D:\maven_repo\maven_repo\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-json\2.0.1.RELEASE\spring-boot-starter-json-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.9.5.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-tomcat\2.0.1.RELEASE\spring-boot-starter-tomcat-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\apache\tomcat\embed\tomcat-embed-core\8.5.29\tomcat-embed-core-8.5.29.jar;D:\maven_repo\maven_repo\org\apache\tomcat\embed\tomcat-embed-el\8.5.29\tomcat-embed-el-8.5.29.jar;D:\maven_repo\maven_repo\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.29\tomcat-embed-websocket-8.5.29.jar;D:\maven_repo\maven_repo\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.Final.jar;D:\maven_repo\maven_repo\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;D:\maven_repo\maven_repo\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;D:\maven_repo\maven_repo\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;D:\maven_repo\maven_repo\org\springframework\spring-web\5.0.5.RELEASE\spring-web-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-webmvc\5.0.5.RELEASE\spring-webmvc-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\ideaWorkPlace\springboot-demo"/>
-    <property name="java.runtime.version" value="1.7.0_67-b01"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="D:\Java7\jdk1.7.0_67\jre\lib\endorsed"/>
-    <property name="os.arch" value="x86"/>
-    <property name="java.io.tmpdir" value="C:\Users\asus\AppData\Local\Temp\"/>
+    <property name="sun.boot.library.path" value="D:\java8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\asus\AppData\Local\Temp\surefire6413609101162678764\surefirebooter8671872862729530209.jar C:\Users\asus\AppData\Local\Temp\surefire6413609101162678764 2019-08-15T19-12-47_893-jvmRun1 surefire3786615308423805906tmp surefire_0552123241319934433tmp"/>
+    <property name="surefire.test.class.path" value="D:\ideaWorkPlace\springboot-demo\target\test-classes;D:\ideaWorkPlace\springboot-demo\target\classes;D:\maven_repo\maven_repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-web\2.0.1.RELEASE\spring-boot-starter-web-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter\2.0.1.RELEASE\spring-boot-starter-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-autoconfigure\2.0.1.RELEASE\spring-boot-autoconfigure-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-logging\2.0.1.RELEASE\spring-boot-starter-logging-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\maven_repo\maven_repo\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\maven_repo\maven_repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\maven_repo\maven_repo\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;D:\maven_repo\maven_repo\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;D:\maven_repo\maven_repo\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;D:\maven_repo\maven_repo\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;D:\maven_repo\maven_repo\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-json\2.0.1.RELEASE\spring-boot-starter-json-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;D:\maven_repo\maven_repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.9.5.jar;D:\maven_repo\maven_repo\org\springframework\boot\spring-boot-starter-tomcat\2.0.1.RELEASE\spring-boot-starter-tomcat-2.0.1.RELEASE.jar;D:\maven_repo\maven_repo\org\apache\tomcat\embed\tomcat-embed-core\8.5.29\tomcat-embed-core-8.5.29.jar;D:\maven_repo\maven_repo\org\apache\tomcat\embed\tomcat-embed-el\8.5.29\tomcat-embed-el-8.5.29.jar;D:\maven_repo\maven_repo\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.29\tomcat-embed-websocket-8.5.29.jar;D:\maven_repo\maven_repo\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.Final.jar;D:\maven_repo\maven_repo\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;D:\maven_repo\maven_repo\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;D:\maven_repo\maven_repo\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;D:\maven_repo\maven_repo\org\springframework\spring-web\5.0.5.RELEASE\spring-web-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-webmvc\5.0.5.RELEASE\spring-webmvc-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;D:\maven_repo\maven_repo\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\asus"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\java8\jre"/>
+    <property name="basedir" value="D:\ideaWorkPlace\springboot-demo"/>
+    <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="D:\apache-maven-3.3.9\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Java7\jdk1.7.0_67\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\anaconda-install;D:\anaconda-install\Library\mingw-w64\bin;D:\anaconda-install\Library\usr\bin;D:\anaconda-install\Library\bin;D:\anaconda-install\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\hadoop-2.6.4\bin;D:\python;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\work\svn\bin;D:\mongodb\bin;C:\Program Files\TortoiseGit\bin;D:\nodejs\;D:\java8\bin;D:\apache-maven-3.3.9\bin;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;D:\anaconda-install\Scripts;D:\anaconda-install;D:\mysql\mysql-5.7.22-winx64\bin;D:\fiddler;F:\work\instantclient\instantclient_12_2\bin;D:\VSCode\bin;D:\nodejs\node-global;D:\gradle-5.2.1\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="51.0"/>
-    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
-    <property name="maven.repo.local" value="D:\maven_repo\maven_repo"/>
-    <property name="os.version" value="6.3"/>
-    <property name="user.home" value="C:\Users\asus"/>
-    <property name="user.timezone" value="Asia/Shanghai"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.7"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\asus\AppData\Local\Temp\surefire6413609101162678764\surefirebooter8671872862729530209.jar"/>
+    <property name="sun.boot.class.path" value="D:\java8\jre\lib\resources.jar;D:\java8\jre\lib\rt.jar;D:\java8\jre\lib\sunrsasign.jar;D:\java8\jre\lib\jsse.jar;D:\java8\jre\lib\jce.jar;D:\java8\jre\lib\charsets.jar;D:\java8\jre\lib\jfr.jar;D:\java8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="user.name" value="asus"/>
-    <property name="java.class.path" value="D:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\work\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar"/>
-    <property name="java.vm.specification.version" value="1.7"/>
-    <property name="sun.arch.data.model" value="32"/>
-    <property name="java.home" value="D:\Java7\jdk1.7.0_67\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.5 -s D:\apache-maven-3.3.9\conf\settings.xml -Dmaven.repo.local=D:\maven_repo\maven_repo install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="zh"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="1.7.0_67"/>
-    <property name="java.ext.dirs" value="D:\Java7\jdk1.7.0_67\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="D:\Java7\jdk1.7.0_67\jre\lib\resources.jar;D:\Java7\jdk1.7.0_67\jre\lib\rt.jar;D:\Java7\jdk1.7.0_67\jre\lib\sunrsasign.jar;D:\Java7\jdk1.7.0_67\jre\lib\jsse.jar;D:\Java7\jdk1.7.0_67\jre\lib\jce.jar;D:\Java7\jdk1.7.0_67\jre\lib\charsets.jar;D:\Java7\jdk1.7.0_67\jre\lib\jfr.jar;D:\Java7\jdk1.7.0_67\jre\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\apache-maven-3.3.9"/>
-    <property name="file.separator" value="\"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\java8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\maven_repo\maven_repo"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\asus\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.2.5"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="D:\ideaWorkPlace\springboot-demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\java8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\anaconda-install;D:\anaconda-install\Library\mingw-w64\bin;D:\anaconda-install\Library\usr\bin;D:\anaconda-install\Library\bin;D:\anaconda-install\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\hadoop-2.6.4\bin;D:\python;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\work\svn\bin;D:\mongodb\bin;C:\Program Files\TortoiseGit\bin;D:\nodejs\;D:\java8\bin;D:\apache-maven-3.3.9\bin;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;D:\anaconda-install\Scripts;D:\anaconda-install;D:\mysql\mysql-5.7.22-winx64\bin;D:\fiddler;F:\work\instantclient\instantclient_12_2\bin;D:\VSCode\bin;D:\nodejs\node-global;D:\gradle-5.2.1\bin;;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="D:\java8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="maven.repo.local" value="D:\maven_repo\maven_repo"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testApp" classname="com.forever.AppTest" time="0"/>
+  <testcase name="testApp" classname="com.forever.AppTest" time="0.001"/>
 </testsuite>
